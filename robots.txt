@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /ivanov-hypnotherapy/blog/preview/
+
+Sitemap: https://murzzsite.github.io/ivanov-hypnotherapy/sitemap.xml

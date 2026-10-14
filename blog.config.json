@@ -1,0 +1,38 @@
+{
+  "siteName": "Игорь Иванов",
+  "siteUrl": "https://murzzsite.github.io/ivanov-hypnotherapy",
+  "lang": "ru",
+  "repo": "murzzsite/ivanov-hypnotherapy",
+  "ref": "VK683UZ8G4",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи Игоря Иванова об усталости, повторяющихся сценариях, работе с подсознанием, гипнотерапии и регрессии",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Игорь Иванов",
+    "jobTitle": "Гипнотерапевт, регрессолог",
+    "type": "Person"
+  },
+  "ctaTitle": "Хотите разобраться, что стоит за усталостью?",
+  "ctaText": "Запишитесь на диагностическую консультацию: разберём ваш запрос в Zoom и честно скажем, подходит ли вам этот метод.",
+  "ctaButton": "Записаться на диагностику",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Материал носит информационный характер, не является медицинской услугой и не заменяет консультацию врача или психотерапевта. Результат работы индивидуален и не гарантируется.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "185e067bca3d022760d78c03d8a59f2e",
+  "previewSecret": "819d76914efeab56",
+  "theme": {
+    "accent": "var(--accent)",
+    "accent-soft": "var(--accent-soft)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--ink-soft)",
+    "line": "var(--border)"
+  }
+}
