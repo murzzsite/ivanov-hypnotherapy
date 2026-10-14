@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Материалы под ваш оффер — Игорь Иванов</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo__main"><svg class="logo__mark" width="26" height="26" viewBox="0 0 32 32" fill="none"><path d="M16 16a2 2 0 0 1 4 0a4 4 0 0 1-8 0a6 6 0 0 1 12 0a8 8 0 0 1-16 0" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span>Игорь <i>Иванов</i></span></a>
+    <div class="doc-bar__actions">
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="tag">Материалы под ваш оффер</span>
+  <h1>Всё, что помогает довести разговор до записи</h1>
+  <p>Сайт приводит заявки. До консультации и программы доводит разговор. Ниже три материала под ваш оффер: диагностическая консультация 30 €, индивидуальная программа до 8 сессий за 1 700 €, работа с женщинами, которые устали быть сильными.</p>
+</main>
+
+<section class="container doc-section">
+  <div class="material-grid">
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V16H8L4 20V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипты продаж</h3>
+      <p>Как ответить на заявку, провести диагностику, назвать цену и снять возражения: «я всё пробовала», «дорого», «я подумаю», «а это безопасно?».</p>
+      <a href="scripts.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 20H16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <h3>Презентация</h3>
+      <p>Оформленный рассказ о вашей работе с ценами, который можно отправить заинтересованному человеку в личные сообщения вместо долгого объяснения.</p>
+      <a href="presentation.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M21 4L2.5 11.5L9 13.5M21 4L17.5 20L9 13.5M21 4L9 13.5" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Аутрич</h3>
+      <p>Как бережно написать первым тем, кто сам говорит о проблеме в тематических чатах и сообществах, и пригласить на диагностику.</p>
+      <a href="outreach.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Игорь Иванов.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
