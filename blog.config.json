@@ -22,7 +22,8 @@
   "cadenceDays": 7,
   "homeLatest": 3,
   "staticPages": [
-    "/"
+    "/",
+    "/privacy.html"
   ],
   "indexNowKey": "185e067bca3d022760d78c03d8a59f2e",
   "previewSecret": "819d76914efeab56",
